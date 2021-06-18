@@ -43,4 +43,8 @@ footer {
     display: inline-block;
 
   }
+  .h1{
+  width: 100%;
+  height: auto;
+  }
 }
