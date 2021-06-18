@@ -12,7 +12,7 @@ body{
   display: inline-block;
 }
 h1{
-  margin: 30px;
+  margin: 0px;
 font-family: 'Lobster', cursive;
 text-shadow: 5px 0 #232931;
 font-size: 8rem;
@@ -38,13 +38,16 @@ footer {
 
 }
 
-@media(max-width:720px){
+@media(max-width:480px){
   .dice{
     display: inline-block;
 
   }
   h1{
-    color: red;
+    display: inline-block;
+    text-align: center;
+  width: 100%;
   height: auto;
+  font-size: 60px;
   }
 }
